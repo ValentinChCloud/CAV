@@ -61,6 +61,8 @@ Liste de commandes importantes : https://gist.github.com/aquelito/8596717
  ## Système d'exploitation et Bash :
 Qu’est ce qu'un système d’exploitation :
 
+https://github.com/ValentinChCloud/CAV/blob/master/intro_sys_exploitation.pdf
+
 https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation
 
 https://www.univ-orleans.fr/lifo/Members/Mirian.Halfeld/Cours/SEBlois/SE2007-Intro.pdf
