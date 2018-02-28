@@ -85,7 +85,10 @@ https://drive.google.com/open?id=1O_BUUob4KCqflu8j3Hrm3uY7pksPWija
 
     
 ### Exercice :
-TODO faire des liens vers les énoncés dans le repo
+Quelques exercices disponibles ici :
+
+https://github.com/ValentinChCloud/CAV/tree/master/exercices
+
 ### Mini projet, déplacement dans l'arborescence
 https://ibb.co/dKG6Qx
 
