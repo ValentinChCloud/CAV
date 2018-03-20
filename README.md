@@ -92,7 +92,7 @@ https://drive.google.com/open?id=1cdGJkHWOM3ik3kZQxnOatpPIAMdw6Zxy
 https://drive.google.com/open?id=1O_BUUob4KCqflu8j3Hrm3uY7pksPWija
 
     
-### Exercice :
+# Exercice :
 Quelques exercices disponibles ici :
 
 https://github.com/ValentinChCloud/CAV/tree/master/exercices
