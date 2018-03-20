@@ -97,6 +97,10 @@ Quelques exercices disponibles ici :
 
 https://github.com/ValentinChCloud/CAV/tree/master/exercices
 
+Le premier à faire : https://github.com/ValentinChCloud/CAV/tree/master/exercices/ex_bash/
+
+Le second : https://github.com/ValentinChCloud/CAV/tree/master/exercices/ex_awk
+
 ### Mini projet, déplacement dans l'arborescence
 https://ibb.co/dKG6Qx
 
