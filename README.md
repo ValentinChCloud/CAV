@@ -43,7 +43,7 @@ Creation d’usb live :  https://doc.ubuntu-fr.org/live_usb
 
 ISO Ubuntu : https://ubuntu-fr.org/telechargement
 
-Dans le cçs ou ne souhaite pas faire un dual boot ( Windows/Linux) sur son ordinateur, on peut avori recours aux Virtuals Machines.
+Dans le cas ou ne souhaite pas faire un dual boot ( Windows/Linux) sur son ordinateur, on peut avori recours aux Virtuals Machines.
 
 https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/installez-linux-dans-une-machine-virtuelle
 
