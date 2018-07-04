@@ -43,6 +43,14 @@ Creation d’usb live :  https://doc.ubuntu-fr.org/live_usb
 
 ISO Ubuntu : https://ubuntu-fr.org/telechargement
 
+Dans le cas ou ne souhaite pas faire un dual boot ( Windows/Linux) sur son ordinateur, on peut avoir recours aux Virtuals Machines.
+
+https://openclassrooms.com/courses/reprenez-le-controle-a-l-aide-de-linux/installez-linux-dans-une-machine-virtuelle
+
+
+Alan utlise l'option Dual boot, tandis que Valentin l'option Virtual Machine. Les deux options sont viables avec leurs avantages et incovenients. Il ne faut pas hésiter à nous demander 
+
+
 
 ## Utilisation terminal :
 Premières commande utiles : 
@@ -84,10 +92,14 @@ https://drive.google.com/open?id=1cdGJkHWOM3ik3kZQxnOatpPIAMdw6Zxy
 https://drive.google.com/open?id=1O_BUUob4KCqflu8j3Hrm3uY7pksPWija
 
     
-### Exercice :
+# Exercice :
 Quelques exercices disponibles ici :
 
 https://github.com/ValentinChCloud/CAV/tree/master/exercices
+
+Le premier à faire : https://github.com/ValentinChCloud/CAV/tree/master/exercices/ex_bash/
+
+Le second : https://github.com/ValentinChCloud/CAV/tree/master/exercices/ex_awk
 
 ### Mini projet, déplacement dans l'arborescence
 https://ibb.co/dKG6Qx
