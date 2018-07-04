@@ -26,7 +26,7 @@ BEGIN{
   moy=sum_notes_exam/nb_exams #La moyenne est égale à la somme des notes / le nombre d'exam
   
   #Impression des réultats 
-  printf "Eleve : " id ", nb absence : " compteur_abs ", moyenne : "moy" "
+  printf "Eleve : " id " " name ", nb absence : " compteur_abs ", moyenne : "moy" "
   #Boucle pour afficher n=moyenne fois le charactere *
   for(i=0;i<moy;i++){
     printf "*"
@@ -43,5 +43,7 @@ END{
 
 
 ##Remarques sur le code : 
+# Tu vois que chacune des information est stockée dans une variable ce qui permet d'être plus flexible. Par exemple si un élève a passé plus d'examens que les autres le calcul de moyenne sera toujours bon car on ne note pas "moy=sum_notes_exam/4" mais on utilise "nb_exam" qui est calculé pour chaque élève.
+
 # Si il y a un champs qui n'est ni une note ni "abs" il y aura surement une erreur.
 # Une absence est ici considéré comme un zéro. Pour ne pas compter un exam quand absence, il faut décrémenter autant de fois nb_exam qu'il y a d'absence.
