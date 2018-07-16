@@ -25,18 +25,47 @@ BEGIN{
   }
 }
 
+/abs/{
+  abs_counter=0;
+  for(k=0;k<nb_exam;k++){
+    if($(k+3)=="abs"){
+      abs_counter++;
+    }
+  }
+  printf $1"/"$2" : "abs_counter" absence(s)\n"
+}
+
+
 
 #End Block Une fois toutes les opérations effectuées pour chacun des eleves.
 END{
+#version tableau
   for(i=0;i<nb_exam;i++){
-    if(nb_eleve_a_exam_i[i]!=0){ #Pour éviter une possible division par zéro
-      printf "moyenne à l'examen "i" : "sum_notes_exam[i]/nb_eleve_a_exam_i[i]"\n" ; #impression de la moyenne et calcul à la volée.
+    if(nb_eleve_a_exam_i[i]!=0){
+      moy_exam_i[i]=sum_notes_exam[i]/nb_eleve_a_exam_i[i];
+      printf "moyenne à l'examen "i" : "moy_exam_i[i]" " ;
     }else{
       printf "Aucun élève présent à cet examen\n"
     }
+   for(j=0;j<moy_exam_i[i];j++){
+    printf "*"
+  }
+  printf "\n"
   }  
-  print "\nExit";
   exit 0;
 }
 
+#version sans tableau
+#  for(i=0;i<nb_exam;i++){
+#    if(nb_eleve_a_exam_i[i]!=0){
+#      printf "moyenne à l'examen "i" : "sum_notes_exam[i]/nb_eleve_a_exam_i[i]"\n" ;
+#    }else{
+#      printf "Aucun élève présent à cet examen\n"
+#    }
+#   for(j=0;j<sum_notes_exam[i]/nb_eleve_a_exam_i[i];j++){
+#    printf "*"
+#  }
+#  printf "\n"
+#  } 
+ 
 
